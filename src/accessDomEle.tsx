@@ -4,7 +4,7 @@ const AccessDomEle: React.FC = () => {
   //creating a ref for input elememts
   const inputRef = useRef<HTMLInputElement>(null); //initialize a ref to input element
 
-  //function to focus the input
+
   const focusInput = () => {
     inputRef.current?.focus();
   };
